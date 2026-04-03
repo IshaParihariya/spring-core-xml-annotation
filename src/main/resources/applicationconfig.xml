@@ -11,6 +11,12 @@
            http://www.springframework.org/schema/context
            http://www.springframework.org/schema/context/spring-context.xsd">
 
+
+    <!--XML vs Annotation
+    -> for @Qualifier -->
+    <bean id="student2" class="com.isha.service.Student"/>
+
+
     <!--to tell that using annotations-->
     <context:annotation-config/>
 
